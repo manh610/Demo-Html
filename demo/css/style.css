@@ -1,0 +1,155 @@
+.banner {
+    background: #4e4a4a;
+    padding: 20px 0;
+}
+
+.banner .logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.banner .toolbar {
+    background: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 200px;
+    border: solid 1px;
+}
+
+img.cangiua {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background: silver;
+}
+
+.select {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.box {
+    width: 25%;
+    border: solid 1px;
+}
+
+.can {
+    text-align: center;
+}
+
+.noidung {
+    overflow: hidden;
+    padding: 0px 20px 20px 20px;
+}
+
+.select1 {
+    display: flex;
+    flex-direction: column;
+    border-right: 0px;
+}
+
+.select2 {
+    display: flex;
+    flex-direction: column;
+    border-right: 0px;
+}
+
+.select3 {
+    display: flex;
+    flex-direction: column;
+    border-right: 0px;
+}
+
+.select4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    display: flex;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+}
+
+.mau {
+    color: orange;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30%;
+    align-items: center;
+}
+
+.content {
+    margin: 0 200px;
+}
+
+.chu {
+    text-align: justify;
+}
+
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: orange;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    color: black;
+    display: none;
+    position: absolute;
+    background-color: chocolate;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

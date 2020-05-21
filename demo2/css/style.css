@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Gamja Flower';
+    font-size: 20px;
+    color: #222;
+}
+
+.navbar {
+    background-color: rgba(82, 64, 120, 0.9) !important;
+}
+
+.navbar li a {
+    color: white !important;
+}
+
+.navbar li a:hover {
+    color: black !important;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.welcome hr {
+    width: 95%;
+    margin-bottom: 2rem;
+    border-top: 2px solid rgba(62, 44, 100, 0.6);
+}
+
+.fa-react {
+    color: #81D8F7;
+}
+
+.fa-angular {
+    color: rgb(177, 43, 55);
+}
+
+.fa-css3 {
+    color: #D76537;
+}
+
+.fa-react,
+.fa-angular,
+.fa-css3 {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+.social a {
+    font-size: 3em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.fa-google-plus-g {
+    color: #dd4b39;
+}
+
+.fa-instagram {
+    color: #068ec0;
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+footer {
+    background-color: rgba(82, 64, 120, 0.9);
+    color: #d5d5d5;
+}
